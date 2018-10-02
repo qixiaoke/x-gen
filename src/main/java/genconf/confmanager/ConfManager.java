@@ -70,7 +70,7 @@ public class ConfManager {
         mcm.setMapNeedGenTypes(userGenConfImpl.getMapNeedGenTypes(ngm.getMapParams()));
         mcm.setMapExtends(userGenConfImpl.getMapExtends(ngm.getMapParams()));
 
-        this.mapModuleConf.put(mcm.getModuleId(), );
+        this.mapModuleConf.put(mcm.getModuleId(), mcm);
     }
 
     public GenConfModel getGenConf() {
